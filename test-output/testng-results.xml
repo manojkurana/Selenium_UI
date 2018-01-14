@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12540" started-at="2018-01-14T12:18:12Z" finished-at="2018-01-14T12:18:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12540" started-at="2018-01-14T12:18:12Z" finished-at="2018-01-14T12:18:25Z">
+      <class name="com.hcl.testcases.Simpletest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hcl.testcases.Simpletest@1f57539]" name="setup" is-config="true" duration-ms="6791" started-at="2018-01-14T17:48:12Z" finished-at="2018-01-14T17:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.hcl.testcases.Simpletest@1f57539]" name="beforemethod" is-config="true" duration-ms="6" started-at="2018-01-14T17:48:19Z" finished-at="2018-01-14T17:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.testcases.Simpletest.simpletest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="simpletest()[pri:0, instance:com.hcl.testcases.Simpletest@1f57539]" name="simpletest" duration-ms="13" started-at="2018-01-14T17:48:19Z" finished-at="2018-01-14T17:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpletest -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.hcl.testcases.Simpletest@1f57539]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-01-14T17:48:19Z" finished-at="2018-01-14T17:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=simpletest status=SUCCESS method=Simpletest.simpletest()[pri:0, instance:com.hcl.testcases.Simpletest@1f57539] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.hcl.testcases.Simpletest@1f57539]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-01-14T17:48:19Z" finished-at="2018-01-14T17:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcl.testcases.Simpletest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.hcl.testcases.Simpletest@1f57539]" name="test1" duration-ms="5303" started-at="2018-01-14T17:48:19Z" finished-at="2018-01-14T17:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.hcl.testcases.Simpletest@1f57539]" name="aftermethod" is-config="true" duration-ms="0" started-at="2018-01-14T17:48:24Z" finished-at="2018-01-14T17:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=Simpletest.test1()[pri:0, instance:com.hcl.testcases.Simpletest@1f57539] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:com.hcl.testcases.Simpletest@1f57539]" name="endtest" is-config="true" duration-ms="391" started-at="2018-01-14T17:48:24Z" finished-at="2018-01-14T17:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- com.hcl.testcases.Simpletest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
